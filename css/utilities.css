@@ -1,0 +1,32 @@
+.flex {
+	display: flex;
+	gap: 1rem;
+}
+
+.flow > *:where(:not(:first-child)) {
+	margin-top: 1em;
+}
+
+.bg-primary-400 {
+	background: var(--clr-primary-400);
+}
+
+.bg-secondary-400 {
+	background: var(--clr-secondary-400);
+}
+
+.bg-secondary-500 {
+	background: var(--clr-secondary-500);
+}
+
+.bg-neutral-100 {
+	background: var(--clr-neutral-100);
+}
+
+.text-neutral-100 {
+	color: var(--clr-neutral-100);
+}
+
+.text-secondary-400 {
+	color: var(--clr-secondary-400);
+}
